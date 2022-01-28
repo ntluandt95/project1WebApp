@@ -13,6 +13,8 @@ public class MainServlet extends HttpServlet{
 	protected void doGet(HttpServletRequest request, HttpServletResponse respone) throws ServletException, IOException {
 		respone.getWriter().append("hello test work");
 		respone.getWriter().append("hello test pipeline work!!            ");
+		respone.getWriter().append("hello test pipeline work!!            ");
+		respone.getWriter().append("hello test pipeline work!!            ");
 	}
 	
 	  
