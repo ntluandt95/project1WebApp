@@ -11,7 +11,7 @@ public class MainServlet extends HttpServlet{
 
 	@Override
 	protected void doGet(HttpServletRequest request, HttpServletResponse respone) throws ServletException, IOException {
-		respone.getWriter().append("hello");
+		respone.getWriter().append("hello test work");
 	}
 	
 	  
