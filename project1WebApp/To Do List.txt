@@ -1,0 +1,7 @@
+- DBConnection
+- DAOImpl
+- Process Request URI
+	-	Main Servlet
+	-	RequestHelper (Separate Query param and Path Param)
+
+- Testing API with Postman
