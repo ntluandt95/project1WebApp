@@ -8,8 +8,8 @@ import models.School;
 
 public interface SchoolDAO {
 	School get(int id) throws InvocationTargetException, NoSuchMethodException, InstantiationException, IllegalAccessException, NoSuchFieldException, ClassNotFoundException, SQLException ;
-	List<School> get(String... conditions);
-	School insert(School school);
-	School update(int id, School school);
-	School delete(int id);
+	List<School> get(String... conditions) throws SQLException, NoSuchFieldException, ClassNotFoundException, InvocationTargetException, NoSuchMethodException, InstantiationException, IllegalAccessException;
+	School insert(School school) throws SQLException, NoSuchFieldException, ClassNotFoundException, InvocationTargetException, NoSuchMethodException, IllegalAccessException;
+	School update(int id, School school) throws SQLException, NoSuchFieldException, ClassNotFoundException, InvocationTargetException, NoSuchMethodException, IllegalAccessException;
+	School delete(int id) throws SQLException, NoSuchFieldException, ClassNotFoundException, InvocationTargetException, NoSuchMethodException, InstantiationException, IllegalAccessException;
 }

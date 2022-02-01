@@ -9,5 +9,8 @@
         <module name="ServletEx" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="ServletEx" target="1.7" />
+    </bytecodeTargetLevel>
   </component>
 </project>

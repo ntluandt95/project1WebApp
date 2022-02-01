@@ -7,11 +7,14 @@ import com.google.gson.Gson;
 
 import dao.StudentDAOImpl;
 
+import java.lang.reflect.InvocationTargetException;
+import java.sql.SQLException;
+
 public class StudentController {
 	
 	Gson gson = new Gson();
 	StudentDAOImpl studentDAOImpl;
-	public StudentController() {
+	public StudentController() throws SQLException, NoSuchFieldException, ClassNotFoundException, InvocationTargetException, NoSuchMethodException, InstantiationException, IllegalAccessException {
 		studentDAOImpl = new StudentDAOImpl();
 	}
 	public void getById(HttpServletRequest request, HttpServletResponse response) {
