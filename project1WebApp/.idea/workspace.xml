@@ -5,38 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a0f9e1c3-5ec2-4250-b9dd-4853485ac37f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_gson_gson_2_8_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_javax_servlet_api_4_0_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_checkerframework_checker_qual_3_5_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_postgresql_postgresql_42_3_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ServletEx.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ServletEx.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/controllers/StudentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controllers/StudentController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dao/SchoolDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dao/SchoolDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dao/SchoolDAOImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dao/SchoolDAOImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dao/StudentDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dao/StudentDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dao/StudentDAOImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dao/StudentDAOImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/test/mainTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test/mainTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/connection.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/connection.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/revature_p1-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/revature_p1-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ServletEx.war" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/connection.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/connection.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/controllers/SchoolController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/controllers/SchoolController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/controllers/StudentController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/controllers/StudentController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/dao/SchoolDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dao/SchoolDAO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/dao/SchoolDAOImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dao/SchoolDAOImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/dao/StudentDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dao/StudentDAO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/dao/StudentDAOImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dao/StudentDAOImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/models/School.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/models/School.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/models/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/models/Student.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/revature_p1-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/revature_p1-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/servlets/MainServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/servlets/MainServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/test/mainTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/test/mainTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,6 +22,9 @@
       <filtered-out-file-type name="TAG" />
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="jar://$PROJECT_DIR$/src/main/resources/revature_p1-1.0-SNAPSHOT.jar!/revature/orm/entitymanager/DBTable.class" root0="SKIP_INSPECTION" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -74,7 +46,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../SpringMVC" />
   </component>
   <component name="RunManager">
     <configuration name="mainTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
