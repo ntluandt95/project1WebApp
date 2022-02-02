@@ -172,7 +172,7 @@ public class MainServlet extends HttpServlet {
                 else if (("students").equals(uriTokens[2])) studentController.delete(request, response);
                 break;
             }
-            default: {
+            default: { 
                 response.sendError(400);
                 break;
             }
