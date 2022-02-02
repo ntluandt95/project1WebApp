@@ -3,37 +3,38 @@ package dao;
 import java.util.List;
 
 import models.Student;
+import revature.orm.entitymanager.DBTable;
 
 public class StudentDAOImpl implements StudentDAO{
 
+	private DBTable<Student> studentDB;
+	public StudentDAOImpl() {
+		studentDB = new DBTable<>(Student.class);
+	}
 	@Override
 	public Student get(int id) {
-		// TODO Auto-generated method stub
-		return null;
+		return studentDB.get(id);
+		
 	}
 
 	@Override
 	public List<Student> get(String... conditions) {
-		// TODO Auto-generated method stub
-		return null;
+		return studentDB.get(conditions);
 	}
 
 	@Override
 	public Student insert(Student student) {
-		// TODO Auto-generated method stub
-		return null;
+		return studentDB.insertInto(student);
 	}
 
 	@Override
 	public Student update(int id, Student school) {
-		// TODO Auto-generated method stub
-		return null;
+		return studentDB.update(id, school);
 	}
 
 	@Override
 	public Student delete(int id) {
-		// TODO Auto-generated method stub
-		return null;
+		return studentDB.delete(id);
 	}
 
 }

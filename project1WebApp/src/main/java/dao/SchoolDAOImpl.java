@@ -4,42 +4,40 @@ import java.lang.reflect.InvocationTargetException;
 import java.sql.SQLException;
 import java.util.List;
 
+import controllers.SchoolController;
 import models.School;
 import revature.orm.entitymanager.DBTable;
 
 public class SchoolDAOImpl implements SchoolDAO{
 
 	private DBTable<School> schoolDB;
-	public SchoolDAOImpl() throws ClassNotFoundException, NoSuchFieldException, SQLException {
+	
+	public SchoolDAOImpl(){
 		schoolDB = new DBTable<School>(School.class);
 	}
 	@Override
-	public School get(int id) throws InvocationTargetException, NoSuchMethodException, InstantiationException, IllegalAccessException, NoSuchFieldException, ClassNotFoundException, SQLException {
+	public School get(int id){
 		return schoolDB.get(id);
 	}
 
 	@Override
 	public List<School> get(String... conditions) {
-		// TODO Auto-generated method stub
-		return null;
+		return schoolDB.get(conditions);
 	}
 
 	@Override
 	public School insert(School school) {
-		// TODO Auto-generated method stub
-		return null;
+		return schoolDB.insertInto(school);
 	}
 
 	@Override
 	public School update(int id, School school) {
-		// TODO Auto-generated method stub
-		return null;
+		return schoolDB.update(id, school);
 	}
 
 	@Override
 	public School delete(int id) {
-		// TODO Auto-generated method stub
-		return null;
+		return schoolDB.delete(id);
 	}
 
 }

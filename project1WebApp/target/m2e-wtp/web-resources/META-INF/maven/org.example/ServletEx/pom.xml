@@ -28,19 +28,43 @@
 			<version>4.0.1</version>
 			<scope>provided</scope>
 		</dependency>
+	<!-- 
 		<dependency>
 			<groupId>revature.orm</groupId>
-			<artifactId>sample</artifactId>
+			<artifactId>orm</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
 			<systemPath>${project.basedir}/src/main/resources/revature_p1-1.0-SNAPSHOT.jar</systemPath>
 		</dependency>
+	 -->
+	 <dependency>
+	 <groupId>revature</groupId>
+    <artifactId>orm</artifactId>
+    <version>1.0</version>
+	 </dependency>
 		<dependency>
 			<groupId>com.google.code.gson</groupId>
 			<artifactId>gson</artifactId>
 			<version>2.8.6</version>
 		</dependency>
+		<dependency>
+            <groupId>org.postgresql</groupId>
+            <artifactId>postgresql</artifactId>
+            <version>42.3.1</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.logging.log4j</groupId>
+            <artifactId>log4j-core</artifactId>
+            <version>2.14.1</version>
+        </dependency>
 
+        <!-- https://mvnrepository.com/artifact/org.junit.jupiter/junit-jupiter-engine -->
+        <dependency>
+            <groupId>org.junit.jupiter</groupId>
+            <artifactId>junit-jupiter-engine</artifactId>
+            <version>5.8.2</version>
+            <scope>test</scope>
+        </dependency>
 
 	</dependencies>
 

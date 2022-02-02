@@ -7,7 +7,7 @@ import java.util.List;
 import models.School;
 
 public interface SchoolDAO {
-	School get(int id) throws InvocationTargetException, NoSuchMethodException, InstantiationException, IllegalAccessException, NoSuchFieldException, ClassNotFoundException, SQLException ;
+	School get(int id);
 	List<School> get(String... conditions);
 	School insert(School school);
 	School update(int id, School school);
