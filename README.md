@@ -11,6 +11,7 @@ by Thanh Nguyen and Benjamin Karlsberg<br>
 
 ### Get Requests
 [Get Request All Schools](http://ec2-34-224-84-216.compute-1.amazonaws.com:8080/project1WebApp/schools)
+
 http://ec2-34-224-84-216.compute-1.amazonaws.com:8080/project1WebApp/schools
 
 ### Post Requests
