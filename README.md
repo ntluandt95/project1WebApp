@@ -1,5 +1,5 @@
 # Project 1 Web App
-** Web Application that uses a custom ORM (Object Relational Mapping System)
+**Web Application that uses a custom ORM (Object Relational Mapping System)**
 by Thanh Nguyen and Benjamin Karlsberg<br>
 
 ### Table of Contents
