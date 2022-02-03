@@ -17,12 +17,13 @@ import revature.orm.entitymanager.*;
 
 public class MainServlet extends HttpServlet {
 
-	static SchoolController schoolController = new SchoolController();
-	static StudentController studentController = new StudentController();
+	
 	
 	@Override
 	protected void doGet(HttpServletRequest request, HttpServletResponse response)
 			throws ServletException, IOException {
+		SchoolController schoolController = new SchoolController();
+		StudentController studentController = new StudentController();
 		String uri = request.getRequestURI();
         System.out.println(uri);
 
@@ -63,6 +64,8 @@ public class MainServlet extends HttpServlet {
 	@Override
 	protected void doPost(HttpServletRequest request, HttpServletResponse response)
 			throws ServletException, IOException {
+		SchoolController schoolController = new SchoolController();
+		StudentController studentController = new StudentController();
 		String uri = request.getRequestURI();
         System.out.println(uri);
 
@@ -97,7 +100,8 @@ public class MainServlet extends HttpServlet {
 	@Override
 	protected void doPut(HttpServletRequest request, HttpServletResponse response)
 			throws ServletException, IOException {
-		
+		SchoolController schoolController = new SchoolController();
+		StudentController studentController = new StudentController();
 
 		String uri = request.getRequestURI();
         System.out.println(uri);
@@ -141,6 +145,8 @@ public class MainServlet extends HttpServlet {
 	@Override
 	protected void doDelete(HttpServletRequest request, HttpServletResponse response)
 			throws ServletException, IOException {
+		SchoolController schoolController = new SchoolController();
+		StudentController studentController = new StudentController();
 		String uri = request.getRequestURI();
         System.out.println(uri);
 
