@@ -21,7 +21,7 @@ public class StudentController {
 	
 	Gson gson = new GsonBuilder().setDateFormat("yyyy-MM-dd").create();;
 	StudentDAOImpl studentDAOImpl;
-	public StudentController() {
+	public StudentController() { 
 		studentDAOImpl = new StudentDAOImpl();
 	}
 	public void getById(HttpServletRequest request, HttpServletResponse response) throws IOException {
