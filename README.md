@@ -10,20 +10,20 @@ by Thanh Nguyen and Benjamin Karlsberg<br>
 ## How to make Requests
 
 ### Get Requests
-[Get Request All Schools](http://ec2-34-224-84-216.compute-1.amazonaws.com:8080/project1WebApp/schools)
+[Get Request All Schools](http://ec2-34-224-84-216.compute-1.amazonaws.com:8080/project1WebApp/schools)<br>
 http://ec2-34-224-84-216.compute-1.amazonaws.com:8080/project1WebApp/schools
 
-[Get Request School with ID 1](http://ec2-34-224-84-216.compute-1.amazonaws.com:8080/project1WebApp/schools/1)
+[Get Request School with ID 1](http://ec2-34-224-84-216.compute-1.amazonaws.com:8080/project1WebApp/schools/1)<br>
 http://ec2-34-224-84-216.compute-1.amazonaws.com:8080/project1WebApp/schools/1
 
 ### Post Requests
-[Post Request All Schools](http://ec2-34-224-84-216.compute-1.amazonaws.com:8080/project1WebApp/schools)
+[Post Request All Schools](http://ec2-34-224-84-216.compute-1.amazonaws.com:8080/project1WebApp/schools)<br>
 http://ec2-34-224-84-216.compute-1.amazonaws.com:8080/project1WebApp/schools
 
 ### Put Requests
-[Put Request Update School with ID 1](http://ec2-34-224-84-216.compute-1.amazonaws.com:8080/project1WebApp/schools/1)
+[Put Request Update School with ID 1](http://ec2-34-224-84-216.compute-1.amazonaws.com:8080/project1WebApp/schools/1)<br>
 http://ec2-34-224-84-216.compute-1.amazonaws.com:8080/project1WebApp/schools/1
 
 ### Delete Requests
-[Delete Request School with ID 1](http://ec2-34-224-84-216.compute-1.amazonaws.com:8080/project1WebApp/schools/1)
+[Delete Request School with ID 1](http://ec2-34-224-84-216.compute-1.amazonaws.com:8080/project1WebApp/schools/1)<br>
 http://ec2-34-224-84-216.compute-1.amazonaws.com:8080/project1WebApp/schools/1
