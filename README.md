@@ -3,7 +3,7 @@
     by Thanh Nguyen and Benjamin Karlsberg<br>
 
 ### Reference to Custom ORM Github:
-* https://github.com/benkarlsberg/revature_p1/blob/main/README.md
+* https://github.com/benkarlsberg/revature_p1/
 
 <a name="Requests"></a>
 ## How to make Requests
