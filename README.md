@@ -1,10 +1,9 @@
 # Project 1 Web App
 **Web Application that uses a custom ORM (Object Relational Mapping System)**<br>
-by Thanh Nguyen and Benjamin Karlsberg<br>
+    by Thanh Nguyen and Benjamin Karlsberg<br>
 
-### Table of Contents
-
-* [Using the Web App](#Requests)
+### Reference to Custom ORM Github:
+* https://github.com/benkarlsberg/revature_p1/blob/main/README.md
 
 <a name="Requests"></a>
 ## How to make Requests
